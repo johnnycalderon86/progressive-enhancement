@@ -1,0 +1,104 @@
+body {
+    max-width: 90%;
+    margin: 300px 300px;
+    background: -webkit-linear-gradient(90deg, rgb(3, 91, 171), rgb(217, 217, 217));
+    background: linear-gradient(90deg, rgb(3, 91, 171), rgb(217, 217, 217));
+}
+
+
+
+
+p {
+    font-family: sans-serif;
+    letter-spacing: 0.0625em;
+    font-size: 20px;
+    color: blue;
+
+}
+
+a {
+    font-size: 20px;
+}
+
+
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:link {
+    color: rgb(75, 231, 28);
+}
+
+a:hover {
+    color: hotpink;
+}
+
+q {
+    padding-left: 30px;
+    font-size: 160%;
+    background-color: lightsteelblue;
+    border-left: 3px dotted black;
+    font-style: italic;
+
+}
+
+.villagers {
+    border-left: 3px dotted red;
+}
+
+.farmer {
+    border-left: 3px dotted yellow;
+}
+
+header>h1 {
+    background-color: rgb(233, 233, 167);
+}
+
+header>h2 {
+    background-color: rgb(117, 117, 35);
+}
+
+figcaption>h2 {
+    background-color: aliceblue;
+}
+
+.good {
+    text-transform: uppercase;
+    color: red;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: green;
+}
+
+.table1 {
+    background-color: grey;
+
+}
+
+.table2 {
+    background-color: whitesmoke;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    float: right;
+    background: red;
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+.notification {
+    position: fixed;
+    right: 15px;
+    top: 520px;
+    background: #FFFFDD;
+    padding: .5rem 1rem;
+    border: 3px solid #DDDDCC;
+    width: 250px;
+    font-weight: bold;
+    color: #333300;
+}
